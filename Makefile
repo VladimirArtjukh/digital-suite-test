@@ -8,6 +8,7 @@ down:
 	./vendor/bin/sail down
 
 install:
+	cp .env.example .env || true
 	./vendor/bin/sail up -d
 	./vendor/bin/sail composer install
 	./vendor/bin/sail artisan key:generate
