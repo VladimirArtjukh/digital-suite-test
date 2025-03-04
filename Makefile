@@ -1,0 +1,17 @@
+.PHONY: up down install test
+
+up:
+	./vendor/bin/sail up -d
+	cd frontend && npm run dev &
+
+down:
+	./vendor/bin/sail down
+
+install:
+	./vendor/bin/sail composer install
+	./vendor/bin/sail artisan key:generate
+	./vendor/bin/sail artisan migrate
+	cd frontend && npm install
+
+test:
+	./vendor/bin/sail test
