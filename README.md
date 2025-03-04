@@ -9,8 +9,8 @@ A simple Task Manager app with Laravel 12 (backend) and Vue.js 3 (frontend).
 ## Setup
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
-   cd task-manager
+   git clone https://github.com/VladimirArtjukh/digital-suite-test
+   cd digital-suite-test
    
 2. Install dependencies and setup:
    ```bash
