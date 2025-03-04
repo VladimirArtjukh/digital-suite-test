@@ -16,9 +16,9 @@ A simple Task Manager app with Laravel 12 (backend) and Vue.js 3 (frontend).
    ```bash
     make install
    
-3. Start the application
-   ```bash
-    make up
+3. Register new user by link http://localhost/register
+4. Auth by link http://localhost/login
+
 
 ## Environment Variables
 Copy .env.example to .env and adjust if needed. Default Sail settings work out of the box.
